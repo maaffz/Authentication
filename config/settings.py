@@ -26,10 +26,11 @@ SECRET_KEY = 'django-insecure-#ksj*90(-vwv+3ew^)k*o)0_4b=4tnlm0s&*gz=cxo9zft_)e%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.132',
+ALLOWED_HOSTS = ['192.168.1.132', '192.168.0.13',
                  '172.17.120.219',
                  '127.0.0.1',
-                 '172.17.120.219:8000',
+                 '172.17.120.83',
+                 '172.20.10.4',
                  ]
 
 AUTHENTICATION_BACKENDS = [
@@ -160,6 +161,6 @@ DATABASES = {
         'NAME': 'authdb',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': ''
+        'PASSWORD': 'gc1t#123'
     }
 }
